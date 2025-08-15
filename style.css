@@ -5,8 +5,8 @@ body {
 }
 
 #game-container {
-    width: 600px;
-    height: 600px;
+    width: 1200px;
+    height: 1200px;
     border: 2px dashed #ccc;
     margin: 20px auto;
     position: relative; /* 子要素を絶対位置で配置するための基準 */
