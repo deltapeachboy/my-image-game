@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    width: 600px;
+    height: 400px;
+    border: 2px dashed #ccc;
+    margin: 20px auto;
+    position: relative; /* 子要素を絶対位置で配置するための基準 */
+    background-color: #fff;
+    overflow: hidden; /* コンテナからはみ出した画像を隠す */
+}
+
+.draggable-image {
+    position: absolute; /* 親要素(game-container)を基準に位置を決める */
+    cursor: grab;
+    user-select: none; /* ドラッグ中にテキスト選択が起こるのを防ぐ */
+    max-width: 150px; /* 画像が大きすぎないように調整 */
+    z-index: 10; /* 操作中の画像を一番手前に */
+}
+
+.draggable-image:active {
+    cursor: grabbing;
+}
+
+/* 配置済みの画像 */
+.placed {
+    opacity: 0.6; /* 半透明にする */
+    cursor: default;
+    pointer-events: none; /* 配置後は操作できなくする */
+    z-index: 1; /* 配置済みの画像は奥に */
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#finish-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result-container img {
+    border: 1px solid #999;
+    max-width: 100%;
+}
