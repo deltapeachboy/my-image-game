@@ -7,7 +7,7 @@ body {
 #game-container {
     box-sizing: border-box;
     width: 600px;
-    height: 700px;
+    height: 800px;
     border: 2px dashed #ccc;
     margin: 20px auto;
     position: relative; /* 子要素を絶対位置で配置するための基準 */
