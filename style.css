@@ -6,7 +6,7 @@ body {
 
 #game-container {
     width: 600px;
-    height: 400px;
+    height: 600px;
     border: 2px dashed #ccc;
     margin: 20px auto;
     position: relative; /* 子要素を絶対位置で配置するための基準 */
@@ -18,7 +18,7 @@ body {
     position: absolute; /* 親要素(game-container)を基準に位置を決める */
     cursor: grab;
     user-select: none; /* ドラッグ中にテキスト選択が起こるのを防ぐ */
-    max-width: 150px; /* 画像が大きすぎないように調整 */
+    max-width: 400px; /* 画像が大きすぎないように調整 */
     z-index: 10; /* 操作中の画像を一番手前に */
 }
 
