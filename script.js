@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageUrls = [
         'images/part1.png',
         'images/part2.png',
-        'images/part3.png',
         // ここに好きなだけ画像のパスを追加してください
     ];
 

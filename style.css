@@ -28,7 +28,7 @@ body {
 
 /* 配置済みの画像 */
 .placed {
-    opacity: 0.6; /* 半透明にする */
+    opacity: 0; /* 半透明にする */
     cursor: default;
     pointer-events: none; /* 配置後は操作できなくする */
     z-index: 1; /* 配置済みの画像は奥に */
