@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'images/part5.png',
         'images/part6.png',
         'images/part7.png',
-        'images/part8.png',
         'images/part9.png',
         'images/part10.png',
         'images/part11.png',
+        'images/part12.png',
         // ここに好きなだけ画像のパスを追加してください
     ];
 
